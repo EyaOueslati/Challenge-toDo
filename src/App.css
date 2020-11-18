@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.App{
+  text-align: center;
+}
+ul{
+  list-style: none;
+  width: 90%;
+  border: 10px solid #07fa07;
+  padding: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form{
+  width: 90%;
+  height: 50px;
+  border: 10px solid #07fa07;
+  padding: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input{
+  width: 90%;
+}
+
+.btn{
+  width:10% ;
+  height: 100%;
+  background-color: #07fa0738;
+  padding: auto;
+  margin: auto;
+  border: none;
+}
+.btnGroup{
+  display: flex;
+}
+.btnList{
+  border:none;
+  background-color: #07fa072c;
+  margin-left: 5px;
+}
+
+.line {
+  text-decoration: line-through;
+}
